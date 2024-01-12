@@ -1,0 +1,27 @@
+# Game.AddToInventory("Items.my_custom_shirt_redwhite")
+Items.my_custom_shirt_redwhite:
+  $base: Items.GenericInnerChestClothing
+  entityName: my_custom_shirt_factory_name
+  appearanceName: appearance_root_entity_white_red
+  displayName: my_shirt_localization_name_white_red
+  localizedDescription: my_shirt_localization_desc
+  quality: Quality.Legendary
+  appearanceSuffixes: []
+  icon:
+    atlasResourcePath: tutorial\torso\my_custom_shirt\ops\preview_icons.inkatlas
+    atlasPartName: slot_01
+
+# Game.AddToInventory("Items.my_custom_shirt_redblack")
+Items.my_custom_shirt_redblack:
+  $base: Items.GenericInnerChestClothing
+  entityName: my_custom_shirt_factory_name
+  appearanceName: appearance_root_entity_black_red
+  displayName: my_shirt_localization_name_black_red
+  localizedDescription: my_shirt_localization_desc
+  quality: Quality.Legendary
+  appearanceSuffixes: []
+  icon:
+    atlasResourcePath: tutorial\torso\my_custom_shirt\ops\preview_icons.inkatlas
+    atlasPartName: slot_02
+  
+  
